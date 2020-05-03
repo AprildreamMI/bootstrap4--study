@@ -1,0 +1,45 @@
+.container-self {
+  margin: 0 auto;
+}
+
+/* 超小屏 最大宽小于575 */
+@media (max-width: 575px) {
+  .container-self {
+    background-color: red;
+    width: 100%;
+  }
+}
+
+/* 小屏 576<= width <= 767  */
+@media (min-width: 576px) and (max-width: 767px) {
+  .container-self {
+    background-color: green;
+    width: 540px;
+  }
+}
+
+/* 中屏 768<= width <= 991 */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-self {
+    background-color: blue;
+    width: 720px;
+  }
+}
+
+/* 大屏 768<= width <= 991 */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container-self {
+    background-color: purple;
+    width: 960px;
+  }
+}
+
+/* 超大屏 1200<= width*/
+@media (min-width: 1200px) {
+  .container-self {
+    background-color: yellow;
+    width: 1140px;
+  }
+}
+
+ 
